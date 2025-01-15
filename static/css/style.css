@@ -1,0 +1,29 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.progress {
+    height: 25px;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.form-text {
+    color: #6c757d;
+    font-size: 0.875rem;
+}
+
+#errorText {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.progress-bar {
+    transition: width 0.5s ease;
+}

@@ -2,28 +2,80 @@ body {
     background-color: #f8f9fa;
 }
 
+.container {
+    max-width: 1200px;
+}
+
 .card {
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+.card-title {
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.form-text {
+    color: #6c757d;
 }
 
 .progress {
-    height: 25px;
+    height: 0.75rem;
+    border-radius: 0.5rem;
+}
+
+.progress-bar {
+    transition: width 0.3s ease;
 }
 
 .table {
     margin-bottom: 0;
 }
 
-.form-text {
-    color: #6c757d;
-    font-size: 0.875rem;
+.table th {
+    font-weight: 600;
+    color: #2c3e50;
 }
 
-#errorText {
-    margin-top: 1rem;
-    margin-bottom: 0;
+.btn-info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
 }
 
-.progress-bar {
-    transition: width 0.5s ease;
+.btn-info:hover {
+    color: #fff;
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+#scanStatus, #results {
+    transition: all 0.3s ease;
+}
+
+.alert {
+    border-radius: 0.5rem;
+}
+
+.table-responsive {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
 }
